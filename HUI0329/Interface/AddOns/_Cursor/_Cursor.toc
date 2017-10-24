@@ -1,0 +1,32 @@
+﻿## Interface: 60000
+## Title: |cffC495DDEUI|r_Cursor
+## Title-zhCN: |cffC495DDEUI|r鼠标指针特效
+## Title-koKR: |cffC495DDEUI|r마우스 포인터 효과
+## Notes: Adds custom effects to your cursor.
+## Notes-zhCN: 增加鼠标指针的自定义效果
+## Notes-koKR: 마우스 포인터 효과 추가
+## Author: Torhal, Saiket
+## Version: 6.0.2.1-6-g09c9f69
+## X-Revision: 09c9f69
+## X-Date: 2014-12-19T00:50:50Z
+## X-Category: Interface Enhancements
+## X-License: GPLv3
+## X-Email: jcallahan@curse.com
+## X-WoWI-ID: 10531
+## SavedVariables: _CursorOptions
+## SavedVariablesPerCharacter: _CursorOptionsCharacter
+## X-Curse-Packaged-Version: 6.0.2.1-6-g09c9f69
+## X-Curse-Project-Name: _Cursor
+## X-Curse-Project-ID: cursor
+## X-Curse-Repository-ID: wow/cursor/mainline
+## Dependencies: ElvUI
+## X-Revision: ElvUI
+## DefaultState: disabled
+
+# See http://wow.curseforge.com/addons/cursor/localization/
+Locales\Locale-enUS.lua
+Locales\Locale-koKR.lua
+Locales\Locale-zhCN.lua
+
+_Cursor.lua
+Config.lua

@@ -1,0 +1,82 @@
+
+RangeDisplayDB3 = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["쑤구리투 - 듀로탄"] = "Wide",
+	},
+	["profiles"] = {
+		["Normal"] = {
+			["locked"] = true,
+			["units"] = {
+				["arena2"] = {
+				},
+				["playertarget"] = {
+					["y"] = -231.596648297567,
+					["relPoint"] = "TOP",
+					["point"] = "TOP",
+					["suffix"] = " 미터",
+					["x"] = 8.42798896709019,
+					["font"] = "데미지 글꼴",
+					["warnEnemyOnly"] = false,
+				},
+				["focus"] = {
+					["enabled"] = false,
+				},
+				["arena5"] = {
+				},
+				["pet"] = {
+				},
+				["mouseover"] = {
+					["enabled"] = false,
+				},
+				["arena4"] = {
+				},
+			},
+		},
+		["Wide"] = {
+			["locked"] = true,
+			["units"] = {
+				["pet"] = {
+				},
+				["arena2"] = {
+				},
+				["focus"] = {
+					["enabled"] = false,
+				},
+				["playertarget"] = {
+					["relPoint"] = "TOP",
+					["point"] = "TOP",
+					["suffix"] = " 미터",
+					["warnEnemyOnly"] = false,
+					["y"] = -231.596648297567,
+					["x"] = 8.42798896709019,
+					["font"] = "데미지 글꼴",
+				},
+				["mouseover"] = {
+					["enabled"] = false,
+				},
+				["arena5"] = {
+				},
+				["arena4"] = {
+				},
+			},
+		},
+		["Default"] = {
+			["units"] = {
+				["pet"] = {
+				},
+				["arena2"] = {
+				},
+				["focus"] = {
+				},
+				["arena5"] = {
+				},
+				["arena4"] = {
+				},
+			},
+		},
+	},
+}

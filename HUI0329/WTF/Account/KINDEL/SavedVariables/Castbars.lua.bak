@@ -1,0 +1,220 @@
+
+CastbarsDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["쑤구리투 - 듀로탄"] = "Wide",
+	},
+	["profiles"] = {
+		["Normal"] = {
+			["FocusCastingBarFrame"] = {
+				["FontSize"] = 12,
+				["BorderColor"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					0.659999996423721, -- [4]
+				},
+				["BorderWidthAdjustment"] = -3,
+				["ShowShield"] = true,
+				["Border"] = "Devil",
+				["Width"] = 150,
+				["Show"] = true,
+				["Font"] = "기본 글꼴",
+				["Position"] = {
+					["y"] = 500,
+					["x"] = 320,
+				},
+				["FontOutline"] = false,
+				["Height"] = 16,
+				["BorderOffsetAdjustment"] = 3,
+				["BarColor"] = {
+					1, -- [1]
+					0.670588235294118, -- [2]
+					0.254901960784314, -- [3]
+				},
+				["Texture"] = "Glamour7",
+			},
+			["MirrorTimer"] = {
+				["Font"] = "기본 글꼴",
+				["FontSize"] = 12,
+				["BorderWidthAdjustment"] = -2,
+				["BorderColor"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					0.659999996423721, -- [4]
+				},
+				["Height"] = 20,
+				["BorderOffsetAdjustment"] = 1,
+				["Border"] = "Devil",
+				["Texture"] = "Glamour7",
+			},
+			["TargetCastingBarFrame"] = {
+				["FontSize"] = 12,
+				["Height"] = 18,
+				["BorderWidthAdjustment"] = -4,
+				["Border"] = "Devil",
+				["Width"] = 200,
+				["FontOutline"] = false,
+				["Font"] = "기본 글꼴",
+				["Position"] = {
+					["y"] = 382,
+					["x"] = 300,
+				},
+				["BorderColor"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					0.659999996423721, -- [4]
+				},
+				["ShowShield"] = true,
+				["BorderOffsetAdjustment"] = 3,
+				["BarColor"] = {
+					1, -- [1]
+					0.670588235294118, -- [2]
+					0.254901960784314, -- [3]
+				},
+				["Texture"] = "Glamour7",
+			},
+			["PetCastingBarFrame"] = {
+				["Show"] = false,
+			},
+			["CastingBarFrame"] = {
+				["FontSize"] = 14,
+				["BorderWidthAdjustment"] = -5,
+				["BorderColor"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					0.659999996423721, -- [4]
+				},
+				["ShowSwingTimer"] = false,
+				["Border"] = "Devil",
+				["Width"] = 260,
+				["ShowCooldownSpark"] = false,
+				["Font"] = "기본 글꼴",
+				["BarColor"] = {
+					1, -- [1]
+					0.670588235294118, -- [2]
+					0.254901960784314, -- [3]
+				},
+				["FontOutline"] = false,
+				["Height"] = 20,
+				["BorderOffsetAdjustment"] = 3,
+				["Position"] = {
+					["y"] = 275,
+				},
+				["Texture"] = "Glamour7",
+			},
+		},
+		["쑤구리투 - 듀로탄"] = {
+			["FocusCastingBarFrame"] = {
+			},
+			["MirrorTimer"] = {
+			},
+		},
+		["Wide"] = {
+			["FocusCastingBarFrame"] = {
+				["FontSize"] = 12,
+				["Border"] = "Devil",
+				["BorderColor"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					0.659999996423721, -- [4]
+				},
+				["BorderOffsetAdjustment"] = 3,
+				["Texture"] = "Glamour7",
+				["BarColor"] = {
+					1, -- [1]
+					0.670588235294118, -- [2]
+					0.254901960784314, -- [3]
+				},
+				["Width"] = 165,
+				["Show"] = true,
+				["Font"] = "기본 글꼴",
+				["Position"] = {
+					["y"] = 518,
+					["x"] = 410,
+				},
+				["BorderWidthAdjustment"] = -3,
+				["Height"] = 16,
+				["FontOutline"] = false,
+			},
+			["MirrorTimer"] = {
+				["FontSize"] = 12,
+				["Border"] = "Devil",
+				["BorderColor"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					0.659999996423721, -- [4]
+				},
+				["BorderOffsetAdjustment"] = 1,
+				["Texture"] = "Glamour7",
+				["Font"] = "기본 글꼴",
+				["BorderWidthAdjustment"] = -2,
+				["Height"] = 20,
+			},
+			["TargetCastingBarFrame"] = {
+				["FontSize"] = 12,
+				["Border"] = "Devil",
+				["FontOutline"] = false,
+				["BorderOffsetAdjustment"] = 3,
+				["Texture"] = "Glamour7",
+				["BarColor"] = {
+					1, -- [1]
+					0.670588235294118, -- [2]
+					0.254901960784314, -- [3]
+				},
+				["Width"] = 240,
+				["Font"] = "기본 글꼴",
+				["BorderColor"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					0.659999996423721, -- [4]
+				},
+				["BorderWidthAdjustment"] = -4,
+				["Height"] = 18,
+				["Position"] = {
+					["y"] = 390,
+					["x"] = 373,
+				},
+			},
+			["PetCastingBarFrame"] = {
+				["Show"] = false,
+			},
+			["CastingBarFrame"] = {
+				["FontSize"] = 14,
+				["Border"] = "Devil",
+				["FontOutline"] = false,
+				["BorderOffsetAdjustment"] = 3,
+				["Texture"] = "Glamour7",
+				["Position"] = {
+					["y"] = 270,
+				},
+				["BarColor"] = {
+					1, -- [1]
+					0.670588235294118, -- [2]
+					0.254901960784314, -- [3]
+				},
+				["Width"] = 340,
+				["Font"] = "기본 글꼴",
+				["BorderColor"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					0.659999996423721, -- [4]
+				},
+				["ShowCooldownSpark"] = false,
+				["Height"] = 20,
+				["BorderWidthAdjustment"] = -5,
+				["ShowSwingTimer"] = false,
+			},
+		},
+	},
+}

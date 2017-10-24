@@ -1,0 +1,37 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["마크투웁 - 아즈샤라"] = "마크투웁 - 아즈샤라",
+	},
+	["profiles"] = {
+		["마크투웁 - 아즈샤라"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -123.499205808653,
+					["x"] = 679.000087298491,
+					["w"] = 328.000219300558,
+					["h"] = 185.000043157225,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["MainWindowWidth"] = 328.000219300558,
+			["Locked"] = true,
+			["MainWindowHeight"] = 185.000043157225,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "CurrentFightData",
+			["LastInstanceName"] = "상록숲",
+		},
+	},
+}

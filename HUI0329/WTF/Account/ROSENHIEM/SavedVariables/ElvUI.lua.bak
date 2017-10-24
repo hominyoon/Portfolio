@@ -1,0 +1,543 @@
+
+ElvDB = {
+	["profileKeys"] = {
+		["마크투웁 - 아즈샤라"] = "마크투웁 - 아즈샤라",
+	},
+	["gold"] = {
+		["아즈샤라"] = {
+			["마크투웁"] = 1910634925,
+		},
+	},
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["worldBoss"] = {
+		["마크투웁-아즈샤라"] = {
+			["OondastaKilled"] = false,
+			["Celestials"] = false,
+			["Ordos"] = false,
+			["galleonKilled"] = false,
+			["NalakKilled"] = false,
+			["class"] = "WARLOCK",
+			["shaKilled"] = false,
+			["realm"] = "아즈샤라",
+		},
+		["reset"] = true,
+	},
+	["global"] = {
+		["gtData"] = {
+			["마크투웁-아즈샤라"] = "파괴적인 존재:26,부패한 고대 정령:174,서슬아귀의 심장:425,너희는 약탈, 우리는 강탈:64",
+		},
+		["gtTime"] = {
+			["마크투웁-아즈샤라"] = "2014/12/02 15:07:24",
+		},
+		["unitframe"] = {
+			["aurafilters"] = {
+				["RaidDebuffs"] = {
+					["spells"] = {
+						["약한 고대의 방벽"] = {
+							["priority"] = 1,
+						},
+						["매서운 추위"] = {
+							["priority"] = 1,
+						},
+						["그슬림"] = {
+							["enable"] = true,
+							["priority"] = 0,
+						},
+						["휘어진 번개"] = {
+							["enable"] = true,
+							["priority"] = 0,
+						},
+						["영혼 세계와의 연결관"] = {
+							["enable"] = true,
+							["priority"] = 0,
+						},
+						["자극"] = {
+							["priority"] = 1,
+						},
+						["공포의 그림자"] = {
+							["enable"] = true,
+							["priority"] = 0,
+						},
+						["불안정한 병원체"] = {
+							["priority"] = 1,
+						},
+						["동상"] = {
+							["priority"] = 1,
+						},
+						["기이한 피"] = {
+							["priority"] = 1,
+						},
+						["악몽의 괴수"] = {
+							["priority"] = 1,
+						},
+						["강력한 고대의 방벽"] = {
+							["priority"] = 1,
+						},
+						["고대의 방벽"] = {
+							["priority"] = 1,
+						},
+					},
+				},
+			},
+		},
+		["luaError"] = {
+			"|cffffd200Message:|r|cffffffff ...rface\\AddOns\\ElvUI\\modules\\nameplates\\nameplates.lua:720: attempt to index field 'castBar' (a nil value)|r\n|cffffd200Time:|r|cffffffff 12/02/14 15:07:24|r\n|cffffd200Count:|r|cffffffff 4|r\n|cffffd200Stack:|r|cffffffff [C]: ?\n...rface\\AddOns\\ElvUI\\modules\\nameplates\\nameplates.lua:720: in function <...rface\\AddOns\\ElvUI\\modules\\nameplates\\nameplates.lua:699>\n|r\n|cffffd200Locals:|r|cffffffff |r", -- [1]
+		},
+	},
+	["profiles"] = {
+		["마크투웁 - 아즈샤라"] = {
+			["general"] = {
+				["experience"] = {
+					["width"] = 10,
+				},
+				["reputation"] = {
+					["width"] = 10,
+				},
+			},
+			["convertExp"] = true,
+			["KnightFrame"] = {
+				["Installed_UI_Layout"] = "Moonlight",
+				["Install_Complete"] = "3.1_08",
+				["UseProfile"] = true,
+				["Modules"] = {
+					["ExpRepDisplay"] = {
+						["EmbedPanel"] = "중앙 채팅창 패널",
+						["EmbedLocation"] = "DP",
+					},
+					["FloatingDatatext"] = {
+						["KnightText2"] = {
+							["Display"] = {
+								["PvPMode"] = "PvP Resilience",
+								["Mode"] = "Crit Chance",
+							},
+							["Location"] = "BOTTOMRIGHTElvUIParentBOTTOMRIGHT-4788",
+						},
+						["SpecText"] = {
+							["Display"] = {
+								["Mode"] = "SpecSwitch |cff2eb7e4(KF)",
+							},
+							["Font"] = {
+								["UseCustomFontStyle"] = true,
+								["FontSize"] = 12,
+							},
+							["Backdrop"] = {
+								["Enable"] = true,
+								["CustomColor_Backdrop"] = {
+									["a"] = 1,
+									["b"] = 1,
+									["g"] = 1,
+									["r"] = 1,
+								},
+								["Width"] = 70,
+								["CustomColor"] = true,
+							},
+							["Location"] = "BOTTOMElvUIParentBOTTOM1367",
+						},
+						["KnightText3"] = {
+							["Display"] = {
+								["Mode"] = "Mastery",
+							},
+							["Location"] = "BOTTOMRIGHTElvUIParentBOTTOMRIGHT-3868",
+						},
+						["KnightText1"] = {
+							["Display"] = {
+								["PvPMode"] = "PvP Power",
+								["Tank"] = "Avoidance",
+								["Melee"] = "Attack Power",
+								["Caster"] = "Spell/Heal Power",
+								["Mode"] = "0",
+								["Healer"] = "Spell/Heal Power",
+							},
+							["Location"] = "BOTTOMElvUIParentBOTTOM2208",
+						},
+					},
+					["SmartTracker"] = {
+						["Location"] = "TOPLEFTElvUIParentTOPLEFT11-258",
+					},
+					["CustomPanel"] = {
+						["중앙 채팅창 패널"] = {
+							["Height"] = 180,
+							["Location"] = "BOTTOMLEFTLeftChatPanelBOTTOMRIGHT50",
+							["DP"] = {
+								["ButtonLeft"] = {
+									"Config", -- [1]
+								},
+								["ButtonRight"] = {
+									"BlueItemInfo3", -- [1]
+								},
+							},
+							["Width"] = 383,
+						},
+						["미터기 애드온 패널"] = {
+							["Tab"] = {
+								["ButtonRight"] = {
+									"InvenCraftInfo2", -- [1]
+								},
+							},
+							["DP"] = {
+								["ButtonLeft"] = {
+									"Findparty", -- [1]
+								},
+								["ButtonRight"] = {
+									"MicroMenu", -- [1]
+								},
+							},
+							["Height"] = 180,
+							["Location"] = "BOTTOMRIGHTRightChatPanelBOTTOMLEFT-50",
+							["Width"] = 384,
+						},
+					},
+				},
+			},
+			["AuraWatch"] = {
+				["loadDefault"] = true,
+				["DB"] = {
+					{
+						["Direction"] = "RIGHT",
+						["Name"] = "CC",
+						["List"] = {
+							{
+								["AuraID"] = 118,
+								["UnitID"] = "player",
+							}, -- [1]
+						},
+						["Interval"] = 10,
+						["Mode"] = "ICON",
+						["IconSize"] = 48,
+						["Pos"] = {
+							"CENTER", -- [1]
+							"UIParent", -- [2]
+							"CENTER", -- [3]
+							-200, -- [4]
+							200, -- [5]
+						},
+					}, -- [1]
+					{
+						["Direction"] = "RIGHT",
+						["Name"] = "발동류",
+						["List"] = {
+							{
+								["AuraID"] = 122355,
+								["UnitID"] = "player",
+							}, -- [1]
+							{
+								["AuraID"] = 117828,
+								["UnitID"] = "player",
+							}, -- [2]
+							{
+								["AuraID"] = 34936,
+								["UnitID"] = "player",
+							}, -- [3]
+							{
+								["AuraID"] = 108559,
+								["UnitID"] = "player",
+							}, -- [4]
+							{
+								["AuraID"] = 17941,
+								["UnitID"] = "player",
+							}, -- [5]
+							{
+								["AuraID"] = 126697,
+								["UnitID"] = "player",
+							}, -- [6]
+							{
+								["AuraID"] = 126605,
+								["UnitID"] = "player",
+							}, -- [7]
+							{
+								["AuraID"] = 126683,
+								["UnitID"] = "player",
+							}, -- [8]
+							{
+								["AuraID"] = 126705,
+								["UnitID"] = "player",
+							}, -- [9]
+							{
+								["AuraID"] = 126659,
+								["UnitID"] = "player",
+							}, -- [10]
+							{
+								["AuraID"] = 126577,
+								["UnitID"] = "player",
+							}, -- [11]
+							{
+								["AuraID"] = 104993,
+								["UnitID"] = "player",
+							}, -- [12]
+							{
+								["AuraID"] = 125487,
+								["UnitID"] = "player",
+							}, -- [13]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["IconSize"] = 42,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							55, -- [5]
+						},
+					}, -- [2]
+					{
+						["Direction"] = "RIGHT",
+						["Name"] = "영심류",
+						["List"] = {
+							{
+								["AuraID"] = 74434,
+								["UnitID"] = "player",
+							}, -- [1]
+							{
+								["AuraID"] = 113861,
+								["UnitID"] = "player",
+							}, -- [2]
+							{
+								["AuraID"] = 113860,
+								["UnitID"] = "player",
+							}, -- [3]
+							{
+								["AuraID"] = 113858,
+								["UnitID"] = "player",
+							}, -- [4]
+							{
+								["AuraID"] = 104773,
+								["UnitID"] = "player",
+							}, -- [5]
+							{
+								["AuraID"] = 110913,
+								["UnitID"] = "player",
+							}, -- [6]
+							{
+								["AuraID"] = 6229,
+								["UnitID"] = "player",
+							}, -- [7]
+							{
+								["AuraID"] = 86211,
+								["UnitID"] = "player",
+							}, -- [8]
+							{
+								["AuraID"] = 111400,
+								["UnitID"] = "player",
+							}, -- [9]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["IconSize"] = 42,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							12, -- [5]
+						},
+					}, -- [3]
+					{
+						["Direction"] = "RIGHT",
+						["Name"] = "대상Debuffs",
+						["List"] = {
+							{
+								["AuraID"] = 1490,
+								["UnitID"] = "target",
+								["Caster"] = "all",
+							}, -- [1]
+							{
+								["AuraID"] = 18223,
+								["UnitID"] = "target",
+								["Caster"] = "all",
+							}, -- [2]
+							{
+								["AuraID"] = 109466,
+								["UnitID"] = "target",
+								["Caster"] = "all",
+							}, -- [3]
+							{
+								["AuraID"] = 1098,
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [4]
+							{
+								["AuraID"] = 63311,
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [5]
+							{
+								["AuraID"] = 93068,
+								["UnitID"] = "target",
+								["Caster"] = "all",
+							}, -- [6]
+							{
+								["AuraID"] = 24844,
+								["UnitID"] = "target",
+								["Caster"] = "all",
+							}, -- [7]
+							{
+								["AuraID"] = 34889,
+								["UnitID"] = "target",
+								["Caster"] = "all",
+							}, -- [8]
+							{
+								["AuraID"] = 603,
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [9]
+							{
+								["AuraID"] = 980,
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [10]
+							{
+								["AuraID"] = 172,
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [11]
+							{
+								["AuraID"] = 27243,
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [12]
+							{
+								["AuraID"] = 348,
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [13]
+							{
+								["AuraID"] = 30108,
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [14]
+							{
+								["AuraID"] = 48181,
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [15]
+						},
+						["Interval"] = 4,
+						["Mode"] = "ICON",
+						["IconSize"] = 48,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Target", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							68, -- [5]
+						},
+					}, -- [4]
+				},
+			},
+			["chat"] = {
+				["panelWidth"] = 363,
+			},
+			["bagsOffsetFixed"] = true,
+			["movers"] = {
+				["ElvUF_FocusCastbarMover"] = "TOPElvUIParentTOP0-200",
+				["PetAB"] = "BOTTOMElvUIParentBOTTOM0251",
+				["ElvUF_RaidMover"] = "BOTTOMLEFTUIParentBOTTOMLEFT4189",
+				["ElvUF_FocusTargetMover"] = "CENTERUIParentBOTTOM-412267",
+				["GMMover"] = "TOPRIGHTElvUIParentTOPRIGHT-14-238",
+				["BuffsMover"] = "TOPRIGHTElvUIParentTOPRIGHT-14-42",
+				["BagsMover"] = "TOPRIGHTUIParentTOPRIGHT-272-6",
+				["BossButton"] = "CENTERUIParentBOTTOM0400",
+				["ElvUF_FocusMover"] = "CENTERUIParentBOTTOM-412305",
+				["VehicleSeatMover"] = "CENTERUIParentBOTTOM464228",
+				["ElvUF_TargetMover"] = "BOTTOMUIParentBOTTOM232276",
+				["ElvUF_Raid40Mover"] = "BOTTOMLEFTUIParentBOTTOMLEFT4189",
+				["ElvAB_1"] = "BOTTOMUIParentBOTTOM0188",
+				["ElvAB_2"] = "BOTTOMUIParentBOTTOM-261188",
+				["ElvAB_4"] = "RIGHTUIParentRIGHT-40",
+				["AltPowerBarMover"] = "TOPElvUIParentTOP0-120",
+				["ElvAB_3"] = "BOTTOMUIParentBOTTOM0188",
+				["ElvAB_5"] = "BOTTOMUIParentBOTTOM261188",
+				["TempEnchantMover"] = "TOPRIGHTElvUIParentTOPRIGHT-20-251",
+				["ElvAB_6"] = "BOTTOMUIParentBOTTOM0600",
+				["BNETMover"] = "TOPRIGHTElvUIParentTOPRIGHT-224-238",
+				["ShiftAB"] = "BOTTOMUIParentBOTTOM-310251",
+				["ElvUF_PlayerMover"] = "BOTTOMUIParentBOTTOM-232276",
+				["ElvUF_PetMover"] = "CENTERUIParentBOTTOM0313",
+				["ArenaHeaderMover"] = "BOTTOMRIGHTUIParentRIGHT-68-188",
+				["ElvUF_AssistMover"] = "LEFTUIParentLEFT1016",
+				["ElvUF_TankMover"] = "LEFTUIParentLEFT1072",
+				["BossHeaderMover"] = "BOTTOMRIGHTUIParentRIGHT-68-188",
+				["TotemBarMover"] = "BOTTOMElvUIParentBOTTOM0256",
+				["ElvUF_TargetTargetMover"] = "CENTERUIParentBOTTOM412305",
+				["ElvUF_PartyMover"] = "BOTTOMLEFTUIParentBOTTOMLEFT4198",
+				["AlertFrameMover"] = "TOPElvUIParentTOP0-170",
+				["DebuffsMover"] = "TOPRIGHTElvUIParentTOPRIGHT-14-188",
+				["MinimapMover"] = "BOTTOMElvUIParentBOTTOM-14",
+			},
+			["actionbar"] = {
+				["bar3"] = {
+					["buttonsize"] = 24,
+				},
+				["bar2"] = {
+					["buttonsize"] = 24,
+				},
+				["bar1"] = {
+					["buttonsize"] = 24,
+				},
+				["bar5"] = {
+					["buttonsize"] = 24,
+				},
+				["bar4"] = {
+					["buttonsize"] = 24,
+				},
+			},
+			["unitframe"] = {
+				["units"] = {
+					["raid10"] = {
+						["height"] = 56,
+						["width"] = 67,
+					},
+					["focustarget"] = {
+						["width"] = 120,
+					},
+					["targettarget"] = {
+						["width"] = 120,
+					},
+					["player"] = {
+						["castbar"] = {
+							["width"] = 230,
+						},
+						["width"] = 230,
+					},
+					["raid40"] = {
+						["height"] = 34,
+						["width"] = 67,
+					},
+					["focus"] = {
+						["width"] = 120,
+					},
+					["target"] = {
+						["castbar"] = {
+							["width"] = 230,
+						},
+						["width"] = 230,
+					},
+					["raid25"] = {
+						["height"] = 56,
+						["width"] = 67,
+					},
+					["party"] = {
+						["height"] = 45,
+						["debuffs"] = {
+							["perrow"] = 6,
+						},
+						["width"] = 200,
+					},
+				},
+			},
+		},
+	},
+}
+ElvPrivateDB = {
+	["profileKeys"] = {
+		["마크투웁 - 아즈샤라"] = "마크투웁 - 아즈샤라",
+	},
+	["profiles"] = {
+		["마크투웁 - 아즈샤라"] = {
+		},
+	},
+}

@@ -1,0 +1,35 @@
+
+MSBTProfiles_SavedVars = {
+	["profiles"] = {
+		["Default"] = {
+			["critFontName"] = "Elv_combat_font",
+			["showAllPowerGains"] = true,
+			["creationVersion"] = "5.7.138",
+			["critFontSize"] = 20.9999523162842,
+			["abbreviateAbilities"] = true,
+			["hideSkills"] = true,
+			["scrollAreas"] = {
+				["Incoming"] = {
+					["offsetY"] = -130,
+					["offsetX"] = -130,
+				},
+				["Static"] = {
+					["offsetY"] = -150,
+				},
+				["Outgoing"] = {
+					["offsetY"] = -130,
+					["offsetX"] = 90,
+				},
+			},
+			["normalFontName"] = "Elv_combat_font",
+			["hideMergeTrailer"] = true,
+			["normalFontSize"] = 15.8799800872803,
+		},
+	},
+}
+MSBT_SavedMedia = {
+	["fonts"] = {
+	},
+	["sounds"] = {
+	},
+}

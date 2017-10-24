@@ -1,0 +1,142 @@
+VER 3 0100000000000008 "고0" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod:shift] 생명력 흡수; 영혼 흡수
+/소환수수동적 [mod:ctrl]
+/소환수따르기 [mod:ctrl]
+/매크로중지 [mod:ctrl]
+/시전 [mod:shift] 생명력 흡수; 영혼 흡수
+END
+VER 3 0100000000000009 "고1" "INV_MISC_QUESTIONMARK"
+#showtooltip 유령 출몰
+/사용 [mod:alt,nocombat] 드레나이 지능 물약
+/시전 [mod:shift,@focus][]  유령 출몰
+END
+VER 3 0100000000000010 "고2" "INV_MISC_QUESTIONMARK"
+#showtooltip 부패의 씨앗
+/시전 [mod:shift] 영혼 불사르기
+/시전  부패의 씨앗
+END
+VER 3 010000000000000D "고3" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod:alt] 드레나이 지능 물약; 영혼 불사르기
+/시전 [nomod] 영혼 불사르기
+/오라취소 [nomod]불타는 돌진
+/소환수적극적 [mod:ctrl]
+/소환수공격 [mod:ctrl]
+/매크로중지 [nocombat]
+/사용 [mod:alt]14
+/시전 [mod:alt] 악마의 영혼
+/시전 [mod:alt] 피의 격노
+END
+VER 3 0100000000000016 "악0" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod:shift] 생명력 흡수; 어둠의 화살
+/사용 [mod:alt] 드레나이 지능 물약
+/사용 [mod:alt,combat]14
+/시전 [mod:alt,combat] 피의 격노
+/시전 [mod:alt,combat] 악마의 영혼
+/소환수수동적 [mod:ctrl]
+/소환수따르기 [mod:ctrl]
+/매크로중지 [mod:ctrl]
+/시전 [mod:shift] 생명력 흡수; 어둠의 화살
+END
+VER 3 0100000000000011 "악1" "INV_MISC_QUESTIONMARK"
+#showtooltip [talent:7/1] 악마 화살;[talent:7/2] 대재앙;흑마법서: 파멸의 수호병(소환)
+/사용 14
+/시전 피의 격노
+/시전 악마의 영혼
+/시전 [talent:7/1]탈태
+/시전 [talent:7/1] 악마 화살;[talent:7/2] 대재앙;흑마법서: 파멸의 수호병(소환)
+END
+VER 3 0100000000000018 "악2" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod] 탈태; 영혼의 불꽃
+/사용 [mod:alt,combat]14
+/시전 [mod:alt,combat] 피의 격노
+/시전 [mod:alt,combat] 악마의 영혼
+/시전 [mod:alt] !탈태
+/시전 영혼의 불꽃
+END
+VER 3 0100000000000014 "악3" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod]탈태; 굴단의 손
+/시전 [mod] !탈태
+/사용 [mod:alt] 14
+/시전 [mod:alt] 악마의 영혼
+/시전 [mod:alt] 피의 격노
+/시전 굴단의 손
+END
+VER 3 0100000000000015 "악4" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod]탈태;부패
+/시전 [mod:shift] !탈태
+/시전 부패
+END
+VER 3 0100000000000012 "악5" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/시전 [talent:6/3,nomod] 만노로스의 분노
+/시전 지옥 화염
+END
+VER 3 0100000000000013 "악6" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod:alt] 드레나이 지능 물약; 탈태
+/오라취소 [nomod]불타는 돌진
+/시전 [nomod][mod:alt]탈태
+/소환수공격 [mod:ctrl]
+/매크로중지 [nocombat]
+/사용 [mod:alt]14
+/시전 [mod:alt] 피의 격노
+/시전 [mod:alt] 악마의 영혼
+END
+VER 3 0100000000000001 "파0" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod:shift] 유황 불길;어둠의 화살
+/소환수수동적 [mod:ctrl]
+/소환수따르기 [mod:ctrl]
+/매크로중지 [mod:ctrl]
+/시전 [mod:shift] !유황 불길
+/사용 [mod:alt,combat]14
+/시전 [mod:alt,combat] 악마의 영혼
+/시전 [mod:alt,combat] 피의 격노
+/시전 어둠의 화살
+END
+VER 3 0100000000000002 "파1" "INV_MISC_QUESTIONMARK"
+#showtooltip 혼돈의 화살
+/사용 [mod:alt,combat]14
+/시전 [mod:alt,combat] 악마의 영혼
+/시전 [mod:alt,combat] 피의 격노
+/시전 [mod:shift,@focus,harm][] 혼돈의 화살
+END
+VER 3 0100000000000003 "파2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting [mod]
+/stopcasting [mod]
+/사용 [mod:alt,combat]14
+/시전 [mod:alt,combat] 악마의 영혼: 불안정
+/시전 [mod:alt,combat] 피의 격노
+/시전 어둠의 연소
+END
+VER 3 0100000000000004 "파3" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod] 유황 불길;점화
+/시전 [mod:shift][mod:alt] !유황 불길
+/사용 [mod:alt,combat]14
+/시전 [mod:alt,combat] 악마의 영혼
+/시전 [mod:alt,combat] 피의 격노
+/시전 점화
+END
+VER 3 0100000000000005 "파4" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod:shift]유황 불길;[stance:0]부패
+/장비 침묵하는 마법석
+/사용 [mod:alt,nocombat] 드레나이 지능 물약
+/시전 [mod:shift] !유황 불길
+/시전 제물
+END
+VER 3 0100000000000006 "파5" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod:alt] 드레나이 지능 물약;[mod:ctrl] 불의 비; 유황 불길
+/오라취소 [nomod]불타는 돌진
+/오라취소 [nomod]유황 불길
+/시전 [mod:shift] !유황 불길
+/시전 [@mouseover]어둠의 연소
+/소환수적극적 [mod:ctrl]
+/매크로중지 [nocombat]
+/사용 [mod:alt]14
+/시전 [mod:alt] 악마의 영혼
+/시전 [mod:alt] 피의 격노
+END
+VER 3 0100000000000007 "파6" "INV_MISC_QUESTIONMARK"
+#showtooltip 대혼란
+/시전 [mod:shift,@focus,harm][mod:alt,harm][@mouseover,harm][] 대혼란
+/focus [@mouseover,harm,nomod]
+END

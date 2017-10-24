@@ -1,0 +1,13 @@
+
+RunePack_Saved = {
+	["parent"] = "UIParent",
+	["Locked"] = true,
+	["rel"] = "BOTTOM",
+	["x"] = 0,
+	["HideRp"] = false,
+	["BgOpacity"] = 0,
+	["anchor"] = "CENTER",
+	["OocOpacity"] = 15,
+	["scale"] = 4.6,
+	["y"] = 326,
+}

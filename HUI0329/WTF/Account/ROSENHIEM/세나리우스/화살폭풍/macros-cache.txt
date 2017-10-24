@@ -1,0 +1,26 @@
+VER 3 010000000000000D "근접" "INV_Misc_QuestionMark"
+#showtooltip
+/script UIErrorsFrame:Hide() 
+/castsequence reset=10/target 날개 절단, 살쾡이의 이빨, 날개 절단
+/시전 랩터의 일격
+/script UIErrorsFrame:Clear(); UIErrorsFrame:Show()
+END
+VER 3 010000000000000E "랩터" "Ability_Hunter_Pet_Devilsaur"
+#showtooltip 독사의 상
+/script UIErrorsFrame:Hide() 
+/시전 [flying][mounted]!매의 상 
+/시전 !독사의 상
+/use 보라색 랩터
+/script UIErrorsFrame:Clear(); UIErrorsFrame:Show()
+END
+VER 3 010000000000000F "속사" "INV_Misc_QuestionMark"
+#showtooltip
+/시전 광폭화
+/시전 속사
+END
+VER 3 010000000000000C "징펫" "INV_Misc_QuestionMark"
+#showtooltip
+/시전 사냥꾼의 징표
+/petattack
+/y >>%t<< 일점사!!
+END

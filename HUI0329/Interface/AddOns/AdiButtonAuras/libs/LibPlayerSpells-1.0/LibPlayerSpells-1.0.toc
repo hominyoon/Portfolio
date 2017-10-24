@@ -1,0 +1,17 @@
+## Interface: 60100
+## Title: Lib: PlayerSpells-1.0
+## Notes: Additional information about player spells.
+## Author: Adirelle
+## Version: 0.2-37-gfa36fc6
+#-# LoadOnDemand: 1
+## X-Date: 2015-02-26T18:11:42Z
+## X-Category: Library
+## X-License: GPL v3
+## X-eMail: adirelle@gmail.com
+## X-Curse-Packaged-Version: 0.2-37-gfa36fc6
+## X-Curse-Project-Name: LibPlayerSpells-1.0
+## X-Curse-Project-ID: libplayerspells-1-0
+## X-Curse-Repository-ID: wow/libplayerspells-1-0/mainline
+
+LibStub.lua
+lib.xml

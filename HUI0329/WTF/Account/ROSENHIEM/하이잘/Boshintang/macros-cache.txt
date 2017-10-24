@@ -1,0 +1,86 @@
+VER 3 0100000000000003 "RIDE" "INV_Misc_QuestionMark"
+#showtooltip
+/시전 [mod:alt] 날쌘 갈색 산양 
+/시전 무쇠결속 원시비룡
+/시전 날쌘 갈색 산양
+END
+VER 3 010000000000000C "고사" "INV_Misc_QuestionMark"
+#showtooltip 마무리 사격
+/소환수수동적 [mod:ctrl]
+/소환수따르기 [mod:ctrl]
+/시전 [combat,nomod] !자동 사격
+/시전 [mod:alt] !매의 상
+/사용 [combat,nomod] 10
+/시전 [mod:alt] 마무리 사격; [nomod]고정 사격
+END
+VER 3 0100000000000015 "낚시" "INV_Misc_QuestionMark"
+#show
+/equip 장인이 만든 칼루아크 낚싯대
+/equip 풍파에 낡은 낚시용 모자
+/연속시전 reset=600 풍파에 낡은 낚시용 모자, 낚시, 낚시, 낚시, 낚시, 낚시, 낚시, 낚시, 낚시, 낚시, 낚시, 낚시
+END
+VER 3 0100000000000022 "눈속" "INV_Misc_QuestionMark"
+#showtooltip 
+/시전 [nogroup,@pet][@focus,help,nodead][help][@targettarget,help][]눈속임 
+END
+VER 3 010000000000001C "산탄" "INV_Misc_QuestionMark"
+#showtooltip
+/시전 [@focus,harm,nodead][harm][] 산탄 사격
+END
+VER 3 010000000000001F "속사" "INV_Misc_QuestionMark"
+#showtooltip [mod:alt] 속도의 물약; 속사
+/시전 [nomod,combat]속사
+/사용 [mod:alt] 속도의 물약
+/시전 [nomod,combat]야성의 부름
+/시전 [nomod,combat]피의 격노
+/소환수공격 [mod:ctrl,@mouseover,harm][]
+/소환수방어적 [mod:ctrl]
+END
+VER 3 0100000000000020 "요리" "INV_Misc_QuestionMark"
+#showtooltip 작은 모닥불
+/equip 요리사 모자
+/연속시전 reset=300 작은 모닥불, 요리, 요리, 요리, 요리, 요리
+END
+VER 3 010000000000001D "주부" "INV_Misc_QuestionMark"
+#showtooltip
+/시전 [@focus,help][help][@player] 주인의 부름
+/사용 8
+END
+VER 3 0100000000000021 "주시" "Ability_CheapShot"
+/clearfocus
+/focus [@mouseover,exists]
+END
+VER 3 0100000000000011 "징표" "INV_Misc_QuestionMark"
+#showtooltip 사냥꾼의 징표
+/시전 사냥꾼의 징표
+/시전 !매의 상
+/소환수방어적 [nocombat]
+END
+VER 3 0100000000000016 "철수" "INV_Misc_QuestionMark"
+#showtooltip 철수
+/시전 날개 절단
+/시전 철수
+END
+VER 3 0100000000000018 "치료" "INV_Misc_QuestionMark"
+#showtooltip
+/시전 [pet,@pet,nodead] 동물 치료 ; 야수 되살리기
+/시전 웅크리기
+END
+VER 3 0100000000000019 "치타" "INV_Misc_QuestionMark"
+#showtooltip
+/시전 [mod:alt] 치타의 상
+/연속시전 reset=10 !치타 무리의 상, !매의 상
+END
+VER 3 010000000000001B "침묵" "INV_Misc_QuestionMark"
+#showtooltip
+/시전 [@focus,harm,nodead][harm][] 침묵의 사격
+END
+VER 3 010000000000000F "키메라" "INV_Misc_QuestionMark"
+#showtooltip 
+/시전 [mod:alt,@focus,harm][] 키메라 사격
+/시전 [@pettarget,exists] 물기
+END
+VER 3 010000000000001A "평정" "INV_Misc_QuestionMark"
+#showtooltip
+/시전 [@focus,harm,nodead][harm][] 평정의 사격
+END

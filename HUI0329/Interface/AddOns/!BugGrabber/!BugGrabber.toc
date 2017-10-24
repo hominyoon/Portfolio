@@ -1,0 +1,17 @@
+﻿## Interface: 60100
+## Title: BugGrabber
+## Title: |cff880303EUI|r BugGrabber
+## Title-koKR: |cff880303EUI|rBugGrabber[플러그인 오류]
+## Author: Funkydude
+## X-Credits: Rabbit, Rowne, Ramble, kergoth, ckknight, Fritti
+## X-License: GPL v2 or later.
+## X-Category: Development Tools
+## SavedVariables: BugGrabberDB
+## X-Curse-Packaged-Version: r210-release
+## X-Curse-Project-Name: !BugGrabber
+## X-Curse-Project-ID: bug-grabber
+## X-Curse-Repository-ID: wow/bug-grabber/mainline
+
+BugGrabber.lua
+locales.lua
+

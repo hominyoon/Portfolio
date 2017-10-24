@@ -1,0 +1,27 @@
+tag 1.9.2
+034af1dd7f639890ca0f960e221a6c7949b30ec2
+Rainrider <rainrider.wow@gmail.com>
+2015-03-07 13:07:23 +0100
+
+Tagging version 1.9.2
+
+
+--------------------
+
+Rainrider:
+	- bump config toc
+	Fixes https://github.com/Adirelle/AdiButtonAuras/issues/178
+	- priest: fix Archangel/Evangelism rule
+	Fixes https://github.com/Adirelle/AdiButtonAuras/issues/177
+	This was broken since
+	https://github.com/Adirelle/AdiButtonAuras/commit/2d28ce8916ec685f57d40c17c5ac2a33ce12c7d4
+	It broke because not passing a highlight to `BuildAuraHandler_Single`
+	results in `model.count` and `model.expiration` not being set.
+	- deathknight: add a rule for Plague Leech
+	- bump toc
+	- deathknight: show Frost Fever and Blood Plague on Outbreak
+	The rule displays a counter if both diseases are found on the enemy and
+	a timer for the one with the shorter duration.
+	- druid: Omen of Clarity is now Restoration only
+	- druid: Omen of Clarity only modifies Regrowth now
+	This is now handled by LibPlayerSpells

@@ -1,0 +1,99 @@
+VER 3 000000000000002B "공0" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/시전 [pet:쉬바라,@mouseover,harm][pet:쉬바라,@focus,harm][pet:쉬바라] 최면; [pet:감시자] 마법 복제;[pet:지옥 임프,@mouseover,help,nodead] [pet:지옥 임프,@player] 마법 불태우기;[pet:격노수호병,@mouseover,harm][pet:격노수호병,@focus,harm][pet:격노수호병] 도끼 던지기;[pet:공허군주] 어둠의 보루;악마 조종
+END
+VER 3 000000000000002C "공0-1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/시전 [pet:심연불정령,@mouseover,help,nodead][pet:심연불정령] 불길의 마법; [pet:공포수호병,@mouseover,harm][pet:공포수호병,@focus,harm][pet:공포수호병] 쇠약;악마 조종
+END
+VER 3 000000000000002D "공1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/시전 [pet:쉬바라] 지옥칼날; [pet:감시자,@mouseover,harm][pet:감시자,@focus,harm][pet:감시자] 안구 광선; [pet:지옥 임프,@player] 상처 지지기;[pet:격노수호병] 격노폭풍;[pet:공허군주] 괴로움;[pet:심연불정령] 유성 충돌;[pet:공포수호병,@focus,mod:shift,harm][pet:공포수호병] 어둠의 봉인;악마 조종
+END
+VER 3 0000000000000020 "공2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/시전 [mod:ctrl]악마 지배;[mod:shift,@focus,harm][mod:shift]추방; [@focus,harm][]공포
+END
+VER 3 0000000000000035 "공3" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/시전 [talent:2/1] 공포의 울부짖음; [talent:2/2] 죽음의 고리; [talent:2/3] 어둠의 격노
+END
+VER 3 0000000000000036 "공4" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/시전 [talent:4/1] 핏빛 두려움; [talent:4/2]불타는 돌진; [talent:4/3] 해방된 의지
+END
+VER 3 0000000000000037 "공5" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/시전 [talent:6/1] 악마의 영혼; [talent:6/2]킬제덴의 교활함; [talent:6/3] 만노로스의 분노
+/시전 피의 격노
+END
+VER 3 000000000000001F "공6" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/시전 [mod:shift] 악마의 마법진: 소환; 악마의 마법진: 순간이동 
+END
+VER 3 000000000000003A "공7" "INV_MISC_QUESTIONMARK"
+#showtooltip 14
+/사용 14
+END
+VER 3 000000000000003B "공8" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/사용 14
+/시전 피의 격노
+/시전 악마의 영혼
+/시전 임프 군단
+END
+VER 3 000000000000003E "기둥" "INV_WAND_11"
+/wm 1
+END
+VER 3 000000000000001C "리카" "252175"
+/skada toggle
+END
+VER 3 0000000000000040 "마해" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/시전 마법 태우기
+END
+VER 3 0000000000000029 "매크로" "ACHIEVEMENT_GUILDPERK_GMAIL"
+/매
+END
+VER 3 000000000000003C "시작" "132487"
+/장비 드레나이 현자의 돌
+/초시계 시작
+/초시계 60
+/초시계 숨기기
+END
+VER 3 0000000000000039 "시점" "INV_MISC_QUESTIONMARK"
+/CONSOLE cameraDistanceMaxFactor 60
+END
+VER 3 000000000000002E "잡" "132489"
+/경보 모든 딜러  %t  점사하세요!
+/script SetRaidTarget("target",8)
+END
+VER 3 000000000000003F "조각수급" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/대상 
+/targetlasttarget
+END
+VER 3 0000000000000019 "주시" "132353"
+/소환수수동적 [mod:ctrl]
+/소환수이동 [mod:ctrl]
+/focus [mod:shift,@mouseover][mod:shift]
+/대상 [nomod,@focus]
+/targetlasttarget [nomod]
+/주시 [nomod]
+/targetlasttarget [nomod]
+/focus [mod:alt,@target]
+END
+VER 3 0000000000000038 "차단" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/시전 어둠의 봉인
+/공 세모 포자식물 차단
+END
+VER 3 000000000000003D "치유" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/시전 어둠의 재생력
+/사용 치유의 명약
+/사용 생명석
+END
+VER 3 000000000000001D "해제" "252177"
+/script PetDismiss()
+END

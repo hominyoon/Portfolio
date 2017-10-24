@@ -1,0 +1,72 @@
+MACRO 16777235 "ㅇㅇ" "INV_Misc_QuestionMark"
+/run d=GetDodgeChance()p=GetParryChance()c=(d-3.652-(p-5)); if (d-3.652)<=(p-5) then DEFAULT_CHAT_FRAME:AddMessage("\n무막이 높습니다. 회피 "..(0-c).."% 올리세요.\n",1,0.5,0) else DEFAULT_CHAT_FRAME:AddMessage("\n회피가 높습니다. 무막 "..c.."% 올리세요.\n",1,0.5,0) end
+END
+MACRO 16777243 "가호" "INV_Misc_QuestionMark"
+#showtooltip 신의 가호
+/오라취소 신의 가호
+/시전 신의 가호
+END
+MACRO 16777242 "도발" "INV_Misc_QuestionMark"
+#showtooltip
+/대상 라이올리스의 불꽃
+/시전 심판의 손길
+/외침 [골든레이디]가 %t를 도발합니다.
+END
+MACRO 16777241 "라그" "INV_Misc_QuestionMark"
+/경보 왼1:도적 2:보기+도help 3:흑마  4:조드
+/경보 오1:법사 2:전+법help 3:신기+원헬프 4:냥꾼
+END
+MACRO 16777236 "비난" "INV_Misc_QuestionMark"
+#showtooltip
+/오라취소 천상의 보호막
+/오라취소 보호의 손길
+/시전 비난
+END
+MACRO 16777239 "성빛" "INV_Misc_QuestionMark"
+#showtooltip
+/시전 [@focus,help][@targettarget,help][] 성스러운 빛
+END
+MACRO 16777238 "신기" "INV_Misc_QuestionMark"
+#showtooltip
+/시전 신성한 기도
+/오라취소 신성한 기도
+END
+MACRO 16777245 "신방" "INV_Misc_QuestionMark"
+#showtooltip
+/오라취소 천상의 보호막
+/오라취소 보호의 손길
+/시전 신성한 방패
+END
+MACRO 16777237 "응방" "INV_Misc_QuestionMark"
+#showtooltip
+/오라취소 보호의 손길
+/targetenemyplayer
+/시전 [@focus,harm][]응징의 방패
+END
+MACRO 16777234 "정망" "INV_Misc_QuestionMark"
+#showtooltip
+/오라취소 보호의 손길
+/시전 [mod:alt] 정의의 망치; 성전사의 일격
+END
+MACRO 16777246 "징고" "INV_Misc_QuestionMark"
+#showtooltip 고대 왕의 수호자
+/equip 강화된 사피리움 면갑
+/equip 강화된 사피리움 가슴보호대
+/equip 강화된 사피리움 다리보호대
+/equip 강화된 사피리움 손보호대
+/시전 고대 왕의 수호자
+END
+MACRO 16777244 "천폭" "INV_Misc_QuestionMark"
+#showtooltip
+/오라취소 보호의 손길
+/시전 [mod:alt] 천상의 폭풍; 성전사의 일격
+END
+MACRO 16777233 "탈것" "INV_Misc_QuestionMark"
+#showtooltip
+/시전 [mod:shift] !성전사의 오라 
+/cast [nomod] 황금빛 그리핀 
+/시전 심연의 해마
+/시전 군마
+/소환수수동적
+/공격중지
+END

@@ -1,0 +1,31 @@
+
+MapsterDB = {
+	["namespaces"] = {
+		["GroupIcons"] = {
+		},
+		["Coords"] = {
+		},
+		["FogClear"] = {
+			["profiles"] = {
+				["Default"] = {
+					["version"] = 2,
+				},
+			},
+		},
+		["BattleMap"] = {
+		},
+	},
+	["profileKeys"] = {
+		["쑤구리투 - 듀로탄"] = "Wide",
+	},
+	["profiles"] = {
+		["Normal"] = {
+			["point"] = "CENTER",
+			["scale"] = 1,
+		},
+		["Wide"] = {
+		},
+		["Default"] = {
+		},
+	},
+}

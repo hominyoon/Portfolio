@@ -1,0 +1,27 @@
+
+SkadaDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["마크투웁 - 아즈샤라"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["windows"] = {
+				{
+					["set"] = "total",
+					["y"] = -43.0001474655674,
+					["mode"] = "피해",
+					["point"] = "TOPLEFT",
+					["x"] = 5.0004333997561,
+					["barwidth"] = 240.999931820019,
+					["background"] = {
+						["height"] = 200.000021367747,
+					},
+				}, -- [1]
+			},
+		},
+	},
+}

@@ -1,0 +1,31 @@
+VER 3 010000000000001B "돌분" "INV_MISC_QUESTIONMARK"
+/대상 황혼의 폭파병
+/시전 돌진
+/시전 분쇄
+END
+VER 3 010000000000001D "돌영" "INV_MISC_QUESTIONMARK"
+/시전 영웅의 투척
+/시전 돌진
+END
+VER 3 010000000000001F "마격" "INV_MISC_QUESTIONMARK"
+/시전  광폭 태세
+/시전 마무리 일격
+END
+VER 3 010000000000001E "마물" "INV_MISC_QUESTIONMARK"
+END
+VER 3 0100000000000019 "영/분" "Ability_Rogue_Ambush"
+/시전 영웅의 일격
+/시전 내면의 분노
+END
+VER 3 0100000000000020 "폭파" "INV_MISC_QUESTIONMARK"
+/시전 돌진
+/시전 충격의 일격
+END
+VER 3 010000000000001C "필광" "INV_MISC_QUESTIONMARK"
+/시전 필사의 일격
+/시전 광전사의 격노
+END
+VER 3 0100000000000014 "회분" "Ability_Warrior_Cleave"
+/시전 회전베기
+/시전 내면의 분노
+END

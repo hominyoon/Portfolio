@@ -1,0 +1,70 @@
+VER 3 0000000000000002 "11" "SPELL_NATURE_SPIRITARMOR"
+/stopcasting
+/click ExtraActionButton1
+END
+VER 3 000000000000000D "ㄹㅇㄴ" "ABILITY_AMBUSH"
+/공격대 경보 딜컷
+END
+VER 3 0000000000000009 "공저" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/시전 공격 저지
+END
+VER 3 0000000000000010 "공취" "INV_MISC_QUESTIONMARK"
+/오라취소 공격 저지
+END
+VER 3 000000000000000C "방합" "Ability_Creature_Cursed_01"
+/run d=GetDodgeChance()p=GetParryChance()b=GetBlockChance();DEFAULT_CHAT_FRAME:AddMessage("n회피+무막 : "..d+p.."n회피+무막+방막 : "..d+p+b.."n방어합 : "..d+p+b+5,1,0.5,0)
+END
+VER 3 0000000000000012 "별빛" "INV_MISC_QUESTIONMARK"
+/시전 별빛 섬광
+/시전 
+END
+VER 3 000000000000000F "생존기" "INV_MISC_QUESTIONMARK"
+++++전탱 생존이 없어요 외부생존기 부탁합니다++
+END
+VER 3 0000000000000006 "속임" "INV_MISC_QUESTIONMARK"
+/대상 새꽃
+/시전 속임수 거래
+/대상 주시대상
+END
+VER 3 0000000000000011 "심판" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast 심판
+/targetlasttarget
+END
+VER 3 0000000000000005 "엘레멘" "Ability_Hunter_LongShots"
+/대상 엘레멘티움 화살
+END
+VER 3 000000000000000E "영혼석" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/시전 영혼석
+/run S=SendChatMessage;t="target"if UnitExists(t)then n=UnitName(t)s="[ "..n.." ] 님 부활합니다!"S(s,"YELL")S(s,"WHISPER",nil,n)end
+END
+VER 3 000000000000000A "제분" "INV_MISC_QUESTIONMARK"
+/대상 재투성이꽃
+/시전 제분
+END
+VER 3 000000000000000B "죽손" "INV_MISC_QUESTIONMARK"
+/대상 황혼의 폭파병
+/시전 죽음의 손아귀
+END
+VER 3 0000000000000013 "천벌" "INV_MISC_QUESTIONMARK"
+/시전 천벌
+/시전 깊은 대지의 장갑
+END
+VER 3 0000000000000001 "파티" "Ability_CheapShot"
+/입장 파티
+/퇴장 파티
+END
+VER 3 0000000000000007 "폭발" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/시전 폭발 사격
+END
+VER 3 0000000000000008 "폭파" "INV_HAMMER_05"
+/대상 황혼의 폭파병
+/시전 심판의 망치
+END
+VER 3 0000000000000003 "힘줄" "ABILITY_RACIAL_ULTRAVISION"
+/대상 불타는 힘줄
+END

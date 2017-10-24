@@ -1,0 +1,117 @@
+MACRO 16777219 "02" "INV_Misc_QuestionMark"
+#showtooltip [mod:alt] 고정 사격; 코브라 사격
+/사용 [combat] 10
+/시전 [mod:alt] 고정 사격 
+/시전 [mod:shift] !여우의 상
+/시전 코브라 사격
+/cast [target=pettarget, exists] 물기
+/cast [target=pettarget, exists] 광견병
+END
+MACRO 16777222 "2" "INV_Misc_QuestionMark"
+#showtooltip 폭발 사격
+/오라취소 공격 저지
+/오라취소 보호의 손길
+/사용 [combat] 10
+/시전 [mod:alt,@focus,harm][]폭발 사격
+/cast [target=pettarget, exists] 물기
+/cast [target=pettarget, exists] 광견병
+END
+MACRO 16777220 "9" "ABILITY_HUNTER_SEPARATIONANXIETY"
+#showtooltip 
+/click PetActionButton4
+/시전 야수 소환 해제
+END
+MACRO 16777239 "ab" "INV_Misc_QuestionMark"
+#showtooltip
+/대상 게걸스러운
+/시전 랩터의 일격
+/시전 [@focus,help][@player][] 영혼의 치유
+END
+MACRO 16777226 "aD" "INV_Misc_QuestionMark"
+#showtooltip
+/시전 [mod:shift,@focus,harm][@mouseover,harm][] 산탄 사격
+END
+MACRO 16777225 "aF" "INV_Misc_QuestionMark"
+#showtooltip
+/시전 [mod:shift] 빙결의 덫; 얼음의 덫
+END
+MACRO 16777227 "aT" "INV_Misc_QuestionMark"
+#showtooltip
+/시전 [mod:shift,@focus,harm][] 평정의 사격
+END
+MACRO 16777231 "bX" "INV_Misc_QuestionMark"
+#showtooltip
+/시전 [combat] 죽은척하기; 위장술
+END
+MACRO 16777237 "고사" "INV_Misc_QuestionMark"
+#showtooltip [mod:alt] 코브라 사격; 고정 사격
+/오라취소 [nomod] 낙하산
+/시전 [combat] 광견병
+/시전 [mod:alt] 코브라 사격 
+/시전 [mod:shift] !여우의 상
+/시전 고정 사격
+END
+MACRO 16777236 "눈속" "INV_Misc_QuestionMark"
+#showtooltip
+/오라취소 눈속임
+/시전 [nogroup,@pet][@focus,help][@mouseover,help][@targettarget,help][help][] 눈속임
+END
+MACRO 16777218 "마격" "INV_Misc_QuestionMark"
+#showtooltip 마무리 사격
+/오라취소 공격 저지
+/오라취소 보호의 손길
+/시전 [nomod]!매의 상
+/소환수공격 [mod:shift,@mouseover,harm][mod:shift,harm]
+/stopmacro [mod:shift]
+/use [combat] 10
+/시전 [combat] 마무리 사격
+/startattack [combat]
+/시전 번개 숨결
+END
+MACRO 16777242 "신사" "INV_MISC_QUESTIONMARK"
+#showtooltip 신비한 사격
+/오라취소 공격 저지
+/오라취소 보호의 손길
+/사용 [combat] 10
+/시전 [mod:alt,@focus,harm][]신비한 사격
+/cast [target=pettarget, exists] 물기
+/cast [target=pettarget, exists] 광견병
+END
+MACRO 16777241 "야코" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod:alt] 고정 사격; 코브라 사격
+/시전 [combat] 광견병
+/시전 [mod:alt] 고정 사격 
+/시전 [mod:shift] !여우의 상
+/시전 코브라 사격
+/시전 강하
+END
+MACRO 16777238 "주부" "INV_Misc_QuestionMark"
+#showtooltip
+/시전 [mod:shift,@focus,help][] 주인의 부름
+END
+MACRO 16777234 "주시" "Ability_CheapShot"
+/clearfocus
+/주시 [@mouseover]
+END
+MACRO 16777240 "철수" "INV_Misc_QuestionMark"
+#showtooltip 철수
+/stopcasting
+/stopcasting
+/시전 철수
+/사용 15
+END
+MACRO 16777224 "침사" "INV_Misc_QuestionMark"
+#showtooltip
+/예약취소
+/시전중지
+/시전 [mod:shift,@focus,harm][@mouseover,harm][] 침묵의 사격
+END
+MACRO 16777233 "탈것" "INV_Misc_QuestionMark"
+#showtooltip
+/castrandom [nomod] 순혈 불꽃매
+/시전 심연의 해마
+/무작위시전 기계박사의 붕붕이, 야생 질주
+/소환수수동적
+/소환수따르기
+/공격중지
+END

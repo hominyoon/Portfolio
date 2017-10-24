@@ -1,0 +1,16 @@
+
+XLootADB = {
+	["namespaces"] = {
+		["Frame"] = {
+		},
+	},
+	["profileKeys"] = {
+		["쑤구리투 - 듀로탄"] = "Wide",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+		["Wide"] = {
+		},
+	},
+}

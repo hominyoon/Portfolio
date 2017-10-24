@@ -1,0 +1,45 @@
+
+BrokerXPBar_DB = {
+	["profileKeys"] = {
+		["킨델 - 듀로탄"] = "Wide",
+		["쑤구리투 - 듀로탄"] = "Wide",
+	},
+	["profiles"] = {
+		["Normal"] = {
+			["ToGo"] = false,
+			["Spark"] = 0.5,
+			["Inside"] = true,
+			["AutoTrackOnGain"] = true,
+			["MaxHideRepBar"] = true,
+			["MaxHideXPText"] = true,
+			["ShowRep"] = true,
+			["Thickness"] = 1.5,
+			["Font"] = "기본 글꼴",
+			["MaxHideRepText"] = true,
+			["Separators"] = true,
+			["AutoTrackOnLoss"] = true,
+			["Frame"] = "ChocolateBar1",
+			["ShowText"] = "XPFirst",
+			["MaxHideXPBar"] = true,
+		},
+		["Wide"] = {
+			["MaxHideRepText"] = true,
+			["Separators"] = true,
+			["MaxHideXPText"] = true,
+			["Spark"] = 0.5,
+			["MaxHideRepBar"] = true,
+			["AutoTrackOnGain"] = true,
+			["Thickness"] = 1.5,
+			["ShowRep"] = true,
+			["Frame"] = "ChocolateBar1",
+			["MaxHideXPBar"] = true,
+			["AutoTrackOnLoss"] = true,
+			["Inside"] = true,
+			["Font"] = "기본 글꼴",
+			["ShowText"] = "XPFirst",
+			["ToGo"] = false,
+		},
+		["Default"] = {
+		},
+	},
+}

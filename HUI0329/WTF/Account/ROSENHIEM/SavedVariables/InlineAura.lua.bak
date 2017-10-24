@@ -1,0 +1,24 @@
+
+InlineAuraDB = {
+	["namespaces"] = {
+		["Dispel"] = {
+		},
+		["SOUL_SHARDS"] = {
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["Interrupt"] = {
+		},
+		["Health threshold"] = {
+		},
+	},
+	["profileKeys"] = {
+		["마크투웁 - 아즈샤라"] = "마크투웁 - 아즈샤라",
+	},
+	["profiles"] = {
+		["마크투웁 - 아즈샤라"] = {
+			["fontName"] = "combat_font",
+			["version"] = 2,
+		},
+	},
+}

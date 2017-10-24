@@ -1,0 +1,115 @@
+VER 3 010000000000001E "고사" "INV_MISC_QUESTIONMARK"
+#showtooltip 고정 사격
+/소환수수동적 [mod:ctrl]
+/소환수따르기 [mod:ctrl]
+/시전 [mod:ctrl]질주
+/시전 [mod:alt] 독사 쐐기
+/매크로중지 [mod:ctrl][mod:alt]
+/시전 [mod:shift]!여우의 상
+/시전 고정 사격
+/targetenemy [noexists][help][dead]
+/매크로중지 [nocombat]
+/공격시작 [harm][@focustarget,exists][@pettarget]
+END
+VER 3 010000000000002E "눈속" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/시전 [nogroup,@pet][@focus,help,nodead][@mouseover,help][help][@targettarget,help][]눈속임
+END
+VER 3 010000000000002C "덫 발사" "INV_MISC_QUESTIONMARK"
+#showtooltip 덫 발사
+/시전 [btn:2] 덫 발사
+/시전 [nomod] 빙결의 덫;[mod:shift]얼음의 덫;[mod:alt]폭발의 덫;뱀 덫
+END
+VER 3 0100000000000020 "마격" "INV_MISC_QUESTIONMARK"
+#showtooltip 마무리 사격
+/시전 [mod:alt] 열정
+/시전 [mod:alt] 광포한 야수
+/매크로중지 [mod:alt]
+/오라취소 공격 저지
+/오라취소 보호의 손길
+/시전 [nomod]!매의 상
+/시전 [mod:shift,@mouseover,harm][] 마무리 사격
+/소환수적극적 [mod:ctrl]
+/소환수공격 [@mouseover,harm,mod:ctrl][mod:ctrl]
+/질주 [mod:ctrl]
+END
+VER 3 010000000000002A "산탄" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/stopcasting
+/시전 [mod:shift, @focus][nomod,@mouseover, harm,nodead][] 산탄 사격
+END
+VER 3 0100000000000024 "소환" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castrandom [nopet] 야수 부르기 I, 야수 부르기 II
+/시전 [pet] 야수 소환 해제
+END
+VER 3 010000000000001F "신사" "INV_MISC_QUESTIONMARK"
+#showtooltip 신비한 사격
+/시전 신비한 사격
+/targetenemy [noexists][help][dead]
+/매크로중지 [nocombat]
+/공격시작 [harm][@focustarget,exists][@pettarget]
+/시전 불사조의 심장
+ 
+END
+VER 3 0100000000000021 "일제" "INV_MISC_QUESTIONMARK"
+#showtooltip 일제 사격
+/오라취소 공격 저지
+/오라취소 보호의 손길
+/시전 일제 사격
+/소환수공격
+/targetenemy [noexists][help][dead]
+/매크로중지 [nocombat]
+/공격시작 [harm][@focustarget,exists][@pettarget]
+/시전 불사조의 심장
+/script UIErrorsFrame:Hide()
+END
+VER 3 0100000000000025 "주딜" "INV_MISC_QUESTIONMARK"
+#showtooltip 폭발 사격
+/오라취소 공격 저지
+/오라취소 보호의 손길
+/시전 폭발 사격
+/소환수공격
+/targetenemy [noexists][help][dead]
+/매크로중지 [nocombat]
+/공격시작 [harm][@focustarget,exists][@pettarget]
+/시전 불사조의 심장
+END
+VER 3 0100000000000027 "주부" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help] 주인의 부름; [@player, help] 주인의 부름
+END
+VER 3 0100000000000026 "죽척" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod:alt]그림자 숨기;[mod:shift]위장술;죽은척하기
+/stopcasting
+/stopcasting
+/시전 [mod:alt]그림자 숨기;[mod:shift]위장술;죽은척하기
+END
+VER 3 0100000000000028 "철수" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/stopcasting
+/시전 철수
+END
+VER 3 010000000000002D "충포" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/stopcasting
+/시전 [mod:shift, @focus][nomod,@mouseover, harm,nodead][] 충격포
+END
+VER 3 0100000000000023 "치료" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/시전 [@pet,dead][nopet] 야수 되살리기; 동물 치료 
+/시전 [combat] 웅크리기
+END
+VER 3 010000000000002B "침사" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/stopcasting
+/시전 [mod:shift, @focus][nomod,@mouseover, harm,nodead][] 침묵의 사격
+END
+VER 3 0100000000000029 "희포" "Ability_Hunter_SurvivalInstincts"
+#showtooltip
+/cast [@mouseover, help] 주인의 부름; [@player, help] 희생의 포효
+END

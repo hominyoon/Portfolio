@@ -1,0 +1,118 @@
+
+WeakAurasSaved = {
+	["displays"] = {
+	},
+	["registered"] = {
+	},
+	["talent_cache"] = {
+		["HUNTER"] = {
+		},
+		["WARRIOR"] = {
+		},
+		["ROGUE"] = {
+		},
+		["MAGE"] = {
+		},
+		["PRIEST"] = {
+		},
+		["WARLOCK"] = {
+			{
+				["name"] = "어둠의 재생력",
+				["icon"] = "Interface\\Icons\\spell_warlock_darkregeneration",
+			}, -- [1]
+			{
+				["name"] = "영혼 갈취",
+				["icon"] = "Interface\\Icons\\warlock_siphonlife",
+			}, -- [2]
+			{
+				["name"] = "생명력 수확",
+				["icon"] = "Interface\\Icons\\spell_warlock_harvestoflife",
+			}, -- [3]
+			{
+				["name"] = "공포의 울부짖음",
+				["icon"] = "Interface\\Icons\\ability_warlock_howlofterror",
+			}, -- [4]
+			{
+				["name"] = "죽음의 고리",
+				["icon"] = "Interface\\Icons\\ability_warlock_mortalcoil",
+			}, -- [5]
+			{
+				["name"] = "어둠의 격노",
+				["icon"] = "Interface\\Icons\\ability_warlock_shadowfurytga",
+			}, -- [6]
+			{
+				["name"] = "영혼의 고리",
+				["icon"] = "Interface\\Icons\\ability_warlock_soullink",
+			}, -- [7]
+			{
+				["name"] = "희생의 서약",
+				["icon"] = "Interface\\Icons\\warlock_sacrificial_pact",
+			}, -- [8]
+			{
+				["name"] = "어둠의 거래",
+				["icon"] = "Interface\\Icons\\ability_deathwing_bloodcorruption_death",
+			}, -- [9]
+			{
+				["name"] = "핏빛 두려움",
+				["icon"] = "Interface\\Icons\\ability_deathwing_bloodcorruption_earth",
+			}, -- [10]
+			{
+				["name"] = "불타는 돌진",
+				["icon"] = "Interface\\Icons\\ability_deathwing_sealarmorbreachtga",
+			}, -- [11]
+			{
+				["name"] = "해방된 의지",
+				["icon"] = "Interface\\Icons\\warlock_spelldrain",
+			}, -- [12]
+			{
+				["name"] = "흑마법서: 우월함",
+				["icon"] = "Interface\\Icons\\warlock_grimoireofcommand",
+			}, -- [13]
+			{
+				["name"] = "흑마법서: 봉사",
+				["icon"] = "Interface\\Icons\\warlock_grimoireofservice",
+			}, -- [14]
+			{
+				["name"] = "흑마법서: 결속",
+				["icon"] = "Interface\\Icons\\warlock_grimoireofsacrifice",
+			}, -- [15]
+			{
+				["name"] = "아키몬드의 음험함",
+				["icon"] = "Interface\\Icons\\Achievement_Boss_Archimonde ",
+			}, -- [16]
+			{
+				["name"] = "킬제덴의 교활함",
+				["icon"] = "Interface\\Icons\\Achievement_Boss_Kiljaedan",
+			}, -- [17]
+			{
+				["name"] = "만노로스의 분노",
+				["icon"] = "Interface\\Icons\\Achievement_Boss_Magtheridon",
+			}, -- [18]
+			{
+				["name"] = "악마 화살",
+				["icon"] = "Interface\\Icons\\spell_warlock_demonbolt",
+			}, -- [19]
+			{
+				["name"] = "대재앙",
+				["icon"] = "INTERFACE\\ICONS\\achievement_zone_cataclysm",
+			}, -- [20]
+			{
+				["name"] = "악마의 주인",
+				["icon"] = "Interface\\Icons\\spell_warlock_demonicservitude",
+			}, -- [21]
+		},
+		["PALADIN"] = {
+		},
+		["DEATHKNIGHT"] = {
+		},
+		["DRUID"] = {
+		},
+		["MONK"] = {
+		},
+		["SHAMAN"] = {
+		},
+	},
+	["tempIconCache"] = {
+	},
+	["login_squelch_time"] = 10,
+}

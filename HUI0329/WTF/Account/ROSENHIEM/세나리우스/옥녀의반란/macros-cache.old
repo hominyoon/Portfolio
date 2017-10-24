@@ -1,0 +1,14 @@
+MACRO 16777220 "PETA" INV_Misc_QuestionMark
+#showtooltip
+/소환수수동적 [@pettarget,exists]
+/소환수방어적 [@pettarget,noexists]
+/소환수공격 [@pettarget,noexists]
+/시전 질주
+/시전 급강하
+END
+MACRO 16777219 "RIDE" Ability_Mount_Charger
+/시전 !독사의 상
+/시전 [mod:alt] 날쌘 갈색 산양 
+/시전 길들인 청동 비룡
+/시전 날쌘 회갈색 늑대
+END

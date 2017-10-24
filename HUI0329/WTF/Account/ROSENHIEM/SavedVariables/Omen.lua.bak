@@ -1,0 +1,21 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["마크투웁 - 아즈샤라"] = "마크투웁 - 아즈샤라",
+	},
+	["profiles"] = {
+		["마크투웁 - 아즈샤라"] = {
+			["PositionY"] = 599.999992127672,
+			["Background"] = {
+				["EdgeSize"] = 1,
+				["BarInset"] = 2,
+				["Texture"] = "ElvUI Blank",
+			},
+			["Shown"] = false,
+			["PositionX"] = 727.500031840754,
+			["Bar"] = {
+				["Spacing"] = 1,
+			},
+		},
+	},
+}

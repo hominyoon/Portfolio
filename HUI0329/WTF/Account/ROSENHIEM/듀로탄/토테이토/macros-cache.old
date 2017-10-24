@@ -1,0 +1,5 @@
+MACRO 16777217 "토템" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/시전 [nomod] 원소의 부름
+/시전 [mod:alt] 토템의 귀환
+END

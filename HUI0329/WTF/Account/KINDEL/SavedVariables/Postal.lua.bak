@@ -1,0 +1,19 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"쑤구리투|듀로탄|Alliance|90|HUNTER", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["쑤구리투 - 듀로탄"] = "Wide",
+	},
+	["profiles"] = {
+		["Wide"] = {
+		},
+		["쑤구리투 - 듀로탄"] = {
+		},
+	},
+}

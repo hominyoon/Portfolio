@@ -1,0 +1,67 @@
+
+InvenRaidFrames3DB = {
+	["minimapButton"] = {
+		["show"] = false,
+		["radius"] = 80,
+		["angle"] = 199.427908703544,
+		["rounding"] = 10,
+		["dragable"] = true,
+	},
+	["profileKeys"] = {
+	},
+	["profiles"] = {
+		["기본값"] = {
+			["borderBackdropBorder"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["offset"] = 2,
+			["font"] = {
+				["size"] = 12,
+			},
+			["hideBlizzardParty"] = true,
+			["height"] = 40,
+			["petpx"] = 960,
+			["usePet"] = 1,
+			["petpy"] = -539.999938964844,
+			["py"] = -472.990478515625,
+			["px"] = 1234.65209960938,
+			["partyTag"] = false,
+			["borderBackdrop"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				0.319999992847443, -- [4]
+			},
+			["units"] = {
+				["backgroundColor"] = {
+					nil, -- [1]
+					nil, -- [2]
+					nil, -- [3]
+					1, -- [4]
+				},
+				["texture"] = "Smooth v2",
+				["powerBarHeight"] = 0.11,
+				["castingBarHeight"] = 3,
+				["healthType"] = 0,
+				["fadeOutAlpha"] = 0.5,
+			},
+			["border"] = false,
+			["colors"] = {
+				["ENERGY"] = {
+					nil, -- [1]
+					0.803921568627451, -- [2]
+					0.203921568627451, -- [3]
+				},
+				["MANA"] = {
+					0.345098039215686, -- [1]
+					0.576470588235294, -- [2]
+				},
+			},
+			["highlightAlpha"] = 0.5,
+			["use"] = 2,
+		},
+	},
+}

@@ -1,0 +1,6 @@
+VER 3 0100000000000001 "타기" "Ability_Hunter_Pet_Raptor"
+/시전 !독사의 상
+/시전 [mod:alt] 보라색 랩터
+/시전 청동 비룡
+/시전 보라색 랩터
+END

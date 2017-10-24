@@ -1,0 +1,441 @@
+
+ChocolateBarDB = {
+	["profileKeys"] = {
+		["쑤구리투 - 듀로탄"] = "Wide",
+	},
+	["profiles"] = {
+		["Normal"] = {
+			["fontSize"] = 13,
+			["fontPath"] = "Fonts\\2002.TTF",
+			["objSettings"] = {
+				["Recount"] = {
+					["align"] = "right",
+					["index"] = 2,
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+				},
+				["RangeDisplay"] = {
+					["enabled"] = false,
+					["index"] = 1,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+					["showText"] = false,
+				},
+				["MoreChocolate"] = {
+					["enabled"] = false,
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+					["index"] = 2,
+					["showIcon"] = false,
+				},
+				["PitBull4"] = {
+					["enabled"] = false,
+					["index"] = 4,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+					["showText"] = false,
+				},
+				["|cFFFFB366Ara|r Friends"] = {
+					["align"] = "right",
+					["index"] = 1,
+					["barName"] = "ChocolateBar2",
+				},
+				["Broker_XPBar"] = {
+					["index"] = 1,
+					["barName"] = "ChocolateBar1",
+				},
+				["EquippedItemLevelTooltip"] = {
+					["index"] = 2,
+					["barName"] = "ChocolateBar1",
+				},
+				["zBrokerDurability"] = {
+					["align"] = "right",
+					["index"] = 5,
+					["barName"] = "ChocolateBar1",
+				},
+				["Devilconfig"] = {
+					["align"] = "center",
+					["index"] = 1,
+					["barName"] = "ChocolateBar2",
+				},
+				["SavedInstances"] = {
+					["index"] = 3,
+					["barName"] = "ChocolateBar1",
+				},
+				["Omen"] = {
+					["align"] = "right",
+					["index"] = 1,
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+				},
+				["QuestPointer"] = {
+					["enabled"] = false,
+					["align"] = "right",
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+				},
+				["|cFFFFB366Ara|r Tradeskills"] = {
+					["index"] = 3,
+					["barName"] = "ChocolateBar2",
+				},
+				["|cFFFFB366Ara|r Guild"] = {
+					["align"] = "right",
+					["index"] = 2,
+					["barName"] = "ChocolateBar2",
+				},
+				["BrokerXPBar"] = {
+					["align"] = "center",
+					["index"] = 1,
+					["barName"] = "ChocolateBar1",
+				},
+				["BlueItemInfo3"] = {
+					["index"] = 5,
+					["barName"] = "ChocolateBar1",
+				},
+				["InvenRaidFrames2"] = {
+					["align"] = "right",
+					["index"] = 1,
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+				},
+				["shLatency"] = {
+					["index"] = 2,
+					["barName"] = "ChocolateBar2",
+				},
+				["Dominos"] = {
+					["enabled"] = false,
+					["index"] = 2,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+					["showText"] = false,
+				},
+				["Broker_RaidSave"] = {
+					["index"] = 4,
+					["barName"] = "ChocolateBar2",
+				},
+				["Broker_Money"] = {
+					["align"] = "right",
+					["showIcon"] = false,
+					["index"] = 6,
+					["barName"] = "ChocolateBar1",
+				},
+				["InvenRaidFrames3"] = {
+					["align"] = "right",
+					["index"] = 4,
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+				},
+				["shFps"] = {
+					["index"] = 1,
+					["barName"] = "ChocolateBar2",
+				},
+				["FindParty"] = {
+					["index"] = 4,
+					["barName"] = "ChocolateBar1",
+				},
+				["kgPanels"] = {
+					["enabled"] = false,
+					["index"] = 3,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+					["showText"] = false,
+				},
+				["Masque"] = {
+					["enabled"] = false,
+					["align"] = "right",
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+				},
+			},
+			["gap"] = 5,
+			["iconSize"] = 0.65,
+			["barSettings"] = {
+				["ChocolateBar1"] = {
+					["barOffy"] = 1,
+					["barPoint"] = "RIGHT",
+					["align"] = "bottom",
+					["barOffx"] = 0,
+					["width"] = 3000,
+				},
+				["ChocolateBar2"] = {
+					["index"] = 1,
+					["barName"] = "ChocolateBar2",
+				},
+			},
+			["background"] = {
+				["color"] = {
+					["a"] = 0,
+					["g"] = 0.36078431372549,
+					["r"] = 0.380392156862745,
+				},
+			},
+			["fontName"] = "기본 글꼴",
+			["locked"] = true,
+		},
+		["Wide"] = {
+			["fontSize"] = 13,
+			["fontPath"] = "Fonts\\2002.TTF",
+			["objSettings"] = {
+				["Recount"] = {
+					["align"] = "right",
+					["showText"] = false,
+					["index"] = 2,
+					["barName"] = "ChocolateBar1",
+				},
+				["RangeDisplay"] = {
+					["enabled"] = false,
+					["index"] = 1,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+					["showText"] = false,
+				},
+				["MoreChocolate"] = {
+					["enabled"] = false,
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+					["showIcon"] = false,
+					["index"] = 2,
+				},
+				["PitBull4"] = {
+					["enabled"] = false,
+					["index"] = 4,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+					["showText"] = false,
+				},
+				["|cFFFFB366Ara|r Friends"] = {
+					["align"] = "right",
+					["index"] = 1,
+					["barName"] = "ChocolateBar2",
+				},
+				["Broker_XPBar"] = {
+					["index"] = 1,
+					["barName"] = "ChocolateBar1",
+				},
+				["EquippedItemLevelTooltip"] = {
+					["index"] = 2,
+					["barName"] = "ChocolateBar1",
+				},
+				["zBrokerDurability"] = {
+					["align"] = "right",
+					["index"] = 4,
+					["barName"] = "ChocolateBar1",
+				},
+				["Devilconfig"] = {
+					["align"] = "center",
+					["index"] = 1,
+					["barName"] = "ChocolateBar2",
+				},
+				["SavedInstances"] = {
+					["index"] = 3,
+					["barName"] = "ChocolateBar1",
+				},
+				["Omen"] = {
+					["align"] = "right",
+					["showText"] = false,
+					["index"] = 1,
+					["barName"] = "ChocolateBar1",
+				},
+				["|cFFFFB366Ara|r Tradeskills"] = {
+					["index"] = 3,
+					["barName"] = "ChocolateBar2",
+				},
+				["QuestPointer"] = {
+					["enabled"] = false,
+					["align"] = "right",
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+				},
+				["|cFFFFB366Ara|r Guild"] = {
+					["align"] = "right",
+					["index"] = 2,
+					["barName"] = "ChocolateBar2",
+				},
+				["BrokerXPBar"] = {
+					["align"] = "center",
+					["index"] = 1,
+					["barName"] = "ChocolateBar1",
+				},
+				["BlueItemInfo3"] = {
+					["index"] = 5,
+					["barName"] = "ChocolateBar1",
+				},
+				["InvenRaidFrames2"] = {
+					["align"] = "right",
+					["showText"] = false,
+					["index"] = 1,
+					["barName"] = "ChocolateBar1",
+				},
+				["Broker_RaidSave"] = {
+					["index"] = 4,
+					["barName"] = "ChocolateBar2",
+				},
+				["Dominos"] = {
+					["enabled"] = false,
+					["index"] = 2,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+					["showText"] = false,
+				},
+				["shLatency"] = {
+					["index"] = 2,
+					["barName"] = "ChocolateBar2",
+				},
+				["Broker_Money"] = {
+					["align"] = "right",
+					["index"] = 5,
+					["showIcon"] = false,
+					["barName"] = "ChocolateBar1",
+				},
+				["InvenRaidFrames3"] = {
+					["align"] = "right",
+					["showText"] = false,
+					["index"] = 3,
+					["barName"] = "ChocolateBar1",
+				},
+				["shFps"] = {
+					["index"] = 1,
+					["barName"] = "ChocolateBar2",
+				},
+				["FindParty"] = {
+					["index"] = 4,
+					["barName"] = "ChocolateBar1",
+				},
+				["kgPanels"] = {
+					["enabled"] = false,
+					["index"] = 3,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+					["showText"] = false,
+				},
+				["Masque"] = {
+					["enabled"] = false,
+					["align"] = "right",
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+				},
+			},
+			["fontName"] = "기본 글꼴",
+			["barSettings"] = {
+				["ChocolateBar1"] = {
+					["barOffy"] = 1,
+					["barPoint"] = "RIGHT",
+					["align"] = "bottom",
+					["width"] = 3000,
+					["barOffx"] = 0,
+				},
+				["ChocolateBar2"] = {
+					["index"] = 1,
+					["barName"] = "ChocolateBar2",
+				},
+			},
+			["iconSize"] = 0.65,
+			["background"] = {
+				["color"] = {
+					["a"] = 0,
+					["g"] = 0.36078431372549,
+					["r"] = 0.380392156862745,
+				},
+			},
+			["gap"] = 5,
+			["locked"] = true,
+		},
+		["Default"] = {
+			["objSettings"] = {
+				["Recount"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["RangeDisplay"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["MoreChocolate"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["PitBull4"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["|cFFFFB366Ara|r Friends"] = {
+					["barName"] = "ChocolateBar1",
+				},
+				["Broker_XPBar"] = {
+					["barName"] = "ChocolateBar1",
+				},
+				["zBrokerDurability"] = {
+					["barName"] = "ChocolateBar1",
+				},
+				["SavedInstances"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["QuestPointer"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["|cFFFFB366Ara|r Guild"] = {
+					["barName"] = "ChocolateBar1",
+				},
+				["BlueItemInfo3"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["InvenRaidFrames3"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["shLatency"] = {
+					["barName"] = "ChocolateBar1",
+				},
+				["Dominos"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["Omen"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["Masque"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["FindParty"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["Broker_Money"] = {
+					["barName"] = "ChocolateBar1",
+				},
+				["shFps"] = {
+					["barName"] = "ChocolateBar1",
+				},
+				["kgPanels"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["Devilconfig"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+			},
+		},
+	},
+}
