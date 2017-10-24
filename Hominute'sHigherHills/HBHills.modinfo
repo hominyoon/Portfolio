@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1f9b4426-a590-4757-8b1c-823fcdc62991" version="1">
+  <Properties>
+    <Name>HBHills1</Name>
+    <Description>HBHills1</Description>
+    <Teaser>HBHills1</Teaser>
+    <Authors>HB</Authors>
+  </Properties>
+  <FrontEndActions>
+    <UpdateArt id="ConfigArt">
+      <File>HBHills1.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="Art">
+      <File>HBHills1.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/TerrainStyle.artdef</File>
+    <File>HBHills1.dep</File>
+    <File>Materials/HB_HillElement.mtl</File>
+    <File>Materials/HB_TER_Hills_Standard_Element.dds</File>
+    <File>Platforms/MacOS/BLPs/terrain/TerrainElementSet_Base.blp</File>
+    <File>Platforms/Windows/BLPs/terrain/TerrainElementSet_Base.blp</File>
+    <File>Textures/HB_TER_Hills_Standard_Element.tex</File>
+    <File>XLPs/TerrainElementSet_Base.xlp</File>
+  </Files>
+</Mod>

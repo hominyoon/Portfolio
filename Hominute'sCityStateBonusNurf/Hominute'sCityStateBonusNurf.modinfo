@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3228bd79-8889-42ba-ac16-f7066592087e" version="1">
+	<Properties>
+		<Name>Hominute'sCityStateBonusNurf</Name>
+		<Teaser> Decrease city states bonus to capital from 2 to 1. </Teaser>
+		<Description>Decrease city states bonus to capital from 2 to 1. In early games, city states have great impact. If you do not meet the city states, you will fall behind other civilizations.</Description>
+		<Authors>Hominute</Authors>
+	</Properties>
+
+    <!-- Files included -->
+	<Files>
+		<File>Code.sql</File>
+		<File>Text/CityStatesLocalizedText.sql</File>
+	</Files>
+
+    <!-- Different parts of the mod -->
+	<Components>
+		<UpdateText id="HOMIN_TEXT">
+			<Items>
+				<File>Text/CityStatesLocalizedText.sql</File>
+			</Items>
+		</UpdateText>
+		<UpdateDatabase id="HOMIN_CITY_STATES">
+			<Items>
+ 				<File>Code.sql</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+</Mod>

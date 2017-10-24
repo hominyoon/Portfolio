@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1f33daeb-b125-4cdd-b8b4-6f21ee4925a3" version="1">
+	<Properties>
+		<Name>Hominute'sNoFreeAmenity</Name>
+		<Teaser>No amenities for free. Each city start with 0 amenity.</Teaser>
+		<Description>No amenities for free. Each city start with 0 amenity. Because of free amenity bonus, Civ6 is in wide empire's favor. Just compare a big city with 10 population and 5 cities with 2 population. While, the big city requires 5 amenities to be 0 happiness, 5 small city don't require any amenity.</Description>
+		<Authors>Hominute</Authors>
+	</Properties>
+
+    <!-- Files included -->
+	<Files>
+		<File>Code.sql</File>
+	</Files>
+
+    <!-- Different parts of the mod -->
+	<Components>
+		<UpdateDatabase id="HOMIN_TALL_VS_WIDE">
+			<Items>
+ 				<File>Code.sql</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+</Mod>

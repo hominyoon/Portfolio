@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a0dc7ae7-a7ed-4360-b9e7-942f783dcfd5" version="1">
+	<Properties>
+		<Name>Hominute'sFlatTileImprovement</Name>
+		<Teaser>Base lands will provide +1 production. But hills aren't changed.(no production bonus on hills)</Teaser>
+		<Description>Base lands will provide +1 production. But hills aren't changed.(no production bonus on hills). This mod is very simple balance mod for people who think hills are too OP and flat lands are useless.</Description>
+		<Authors>Hominute</Authors>
+	</Properties>
+
+    <!-- Files included -->
+	<Files>
+		<File>Code.sql</File>
+	</Files>
+
+    <!-- Different parts of the mod -->
+	<Components>
+		<UpdateDatabase id="HOMIN_BASE_TERRAIN">
+			<Items>
+ 				<File>Code.sql</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+</Mod>
